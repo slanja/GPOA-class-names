@@ -1,17 +1,21 @@
-
-const el = document.querySelector(".first");
-const text = el.textContent || el.innerText;
-
 var div = document.querySelectorAll(".first");
+var index = 0;
 
-switch(text){
+for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
+    const el = document.querySelector(".first");
+    const text = el.textContent || el.innerText;
+
+    switch(text){
     case "5":
-        div.forEach(element => element.innerText = "E2.C");
+        div[index].innerText = "E2.C";
         break;
     case "45":
-        div.forEach(element => element.innerText = "EP3");
+        div[index].innerText = "EP3";
         break;
     case "47":
-        div.forEach(element => element.innerText = "EP4");
+        div[index].innerText = "EP4";
         break;
+    
+}
+
 }
