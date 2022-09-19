@@ -3,7 +3,8 @@ var index = 0;
 for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
 
     var div = document.querySelectorAll(".first");
-    const el = document.querySelector(".first");
+    const el = document.getElementsByClassName("first")[index];
+    //const el = document.querySelector(".first");
     const text = el.textContent || el.innerText;
 
     switch(text){
