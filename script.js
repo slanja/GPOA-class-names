@@ -17,6 +17,9 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
     case "6":
         div[index].innerText = "E1.C";
         break;
+    case "8":
+        div[index].innerText = "EPR ";
+        break;
     case "16":
         div[index].innerText = "E4.B";
         break;
@@ -26,6 +29,9 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
     case "21":
         div[index].innerText = "EP2";
         break; 
+    case "23":
+        div[index].innerText = "EAul";
+        break;
     case "28":
         div[index].innerText = "E3.C";
         break;
@@ -34,6 +40,9 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
         break;
     case "30":
         div[index].innerText = "E1.B";
+        break;
+    case "31":
+        div[index].innerText = "ENEJ";
         break;
     case "40":
         div[index].innerText = "ETV";
@@ -46,15 +55,6 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
         break;
     case "49":
         div[index].innerText = "EP3";
-        break;
-    case "":
-        div[index].innerText = "ENEJ";
-        break;
-    case "":
-        div[index].innerText = "EPR ";
-        break;
-    case "":
-        div[index].innerText = "EAul";
         break;
     }
     var index = index + 1; 
