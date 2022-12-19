@@ -42,7 +42,7 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
         div[index].innerText = "E1.B";
         break;
     case "31":
-        div[index].innerText = "ENEJ";
+        div[index].innerText = "P6";
         break;
     case "40":
         div[index].innerText = "ETV";
