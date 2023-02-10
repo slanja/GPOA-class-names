@@ -20,6 +20,9 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
     case "8":
         div[index].innerText = "EPR ";
         break;
+    case "15":
+        div[index].innerText = "E3.B";
+        break;
     case "16":
         div[index].innerText = "E4.B";
         break;
@@ -36,7 +39,7 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
         div[index].innerText = "E3.C";
         break;
     case "29":
-        div[index].innerText = "E3.B";
+        div[index].innerText = "";
         break;
     case "30":
         div[index].innerText = "E1.B";
