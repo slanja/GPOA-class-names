@@ -63,3 +63,22 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
     var index = index + 1; 
 
 }
+
+var index = 0;
+
+
+for (let i = document.querySelectorAll('//*[@id="selectedRoom"]/option').length - 1; i >= 0; i--) {
+
+    var option = document.querySelectorAll('//*[@id="selectedRoom"]/option');
+
+    const el = document.getElementsByTagName('//*[@id="selectedRoom"]/option')[index];
+    const text = el.textContent || el.innerText;
+
+    switch(text){
+    case "0C":
+        option[index].innerText = "E2.C";
+        break;
+    }
+    var index = index + 1; 
+
+}
