@@ -36,16 +36,19 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
         div[index].innerText = "EAul";
         break;
     case "28":
-        div[index].innerText = "E3.C";
+        div[index].innerText = "";
         break;
     case "29":
-        div[index].innerText = "";
+        div[index].innerText = "E3.C";
         break;
     case "30":
         div[index].innerText = "E1.B";
         break;
     case "31":
         div[index].innerText = "P6";
+        break;
+    case "32":
+        div[index].innerText = "EP5";
         break;
     case "40":
         div[index].innerText = "ETV";
