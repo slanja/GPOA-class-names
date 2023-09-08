@@ -9,16 +9,19 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
 
     switch(text){
     case "4":
-        div[index].innerText = "E2.B";
+        div[index].innerText = "E1.A";
         break;
     case "5":
-        div[index].innerText = "E2.C";
+        div[index].innerText = "E1.B";
         break;
     case "6":
         div[index].innerText = "E1.C";
         break;
     case "8":
-        div[index].innerText = "EPR ";
+        div[index].innerText = "EPR";
+        break;
+    case "14":
+        div[index].innerText = "E2.C";
         break;
     case "15":
         div[index].innerText = "E3.B";
@@ -27,7 +30,7 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
         div[index].innerText = "E4.B";
         break;
     case "17":
-        div[index].innerText = "E4.C";
+        div[index].innerText = "";
         break; 
     case "21":
         div[index].innerText = "EP2";
@@ -36,13 +39,13 @@ for (let i = document.querySelectorAll(".first").length - 1; i >= 0; i--) {
         div[index].innerText = "EAul";
         break;
     case "28":
-        div[index].innerText = "";
+        div[index].innerText = "E4.C";
         break;
     case "29":
         div[index].innerText = "E3.C";
         break;
     case "30":
-        div[index].innerText = "E1.B";
+        div[index].innerText = "E2.B";
         break;
     case "31":
         div[index].innerText = "P6";
