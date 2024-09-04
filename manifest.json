@@ -10,7 +10,7 @@
     },
     "content_scripts": [
         {
-            "matches": ["https://bakalari.gpoa.cz/Timetable/Public/*", "https://bakalari.gpoa.cz/next/rozvrh.aspx"],
+            "matches": ["https://gpoa.bakalari.cz/Timetable/Public/*", "https://gpoa.bakalari.cz/next/rozvrh.aspx"],
             "js": ["script.js"]
         }
     ]
